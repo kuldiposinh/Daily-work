@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text {
+            font-size: 50px;
+            margin-top: 50px;
+        }
+
+        .p::after {
+            content: "Hello ";
+            background-color: red;
+            color: black;
+            display: block;
+            margin-top: 10px;
+
+        }
+
+        .p::before {
+            content: "word ";
+            background-color: green;
+            color: black;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>tet :: after & before selecter</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quas nulla, quasi nesciunt itaque quisquam corrupti
+        dolorem nostrum, saepe beatae, velit porro provident doloribus in corporis perferendis accusantium! Sunt,
+        suscipit!</p>
+
+</body>
+
+</html>
